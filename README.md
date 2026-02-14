@@ -93,7 +93,7 @@ Recall: 1.00 across all three classes
 F1-Score: 1.00 (perfect balance)
 
 ### Classification Report
-
+'''
                  precision    recall  f1-score   support
 
     Iris-setosa       1.00      1.00      1.00         7
@@ -103,7 +103,7 @@ Iris-versicolor       1.00      1.00      1.00        12
        accuracy                           1.00        30
       macro avg       1.00      1.00      1.00        30
    weighted avg       1.00      1.00      1.00        30
-
+   '''
 
 ## 🎯 Results
 
