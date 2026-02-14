@@ -14,10 +14,7 @@ A machine learning project that predicts the species of Iris flowers using Logis
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -36,24 +33,23 @@ The model achieves perfect accuracy in classifying the three Iris species, makin
 The project uses the famous [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris) from the UCI Machine Learning Repository. 
 
 **Dataset Characteristics:**
-```
+
 Total Samples: 150
 Features: 4 (all numeric)
 Classes: 3 (Setosa, Versicolor, Virginica)
 Samples per Class: 50
-```
+
 
 **Features:**
-```
+
 1. Sepal Length (cm)
 2. Sepal Width (cm)
 3. Petal Length (cm)
 4. Petal Width (cm)
-```
+
 
 ## 🛠️ Technologies Used
 
-```
 - Google Colab (Recommended - Cloud-based Jupyter notebook environment)
 - Python 3.x
 - NumPy (Numerical computations)
@@ -61,7 +57,7 @@ Samples per Class: 50
 - Matplotlib (Data visualization)
 - Seaborn (Statistical visualizations)
 - scikit-learn (Machine learning implementation)
-```
+
 
 ## 📦 Installation
 
@@ -77,7 +73,6 @@ Samples per Class: 50
 
 ### Running in Google Colab
 
-```
 1. Click the "Open in Colab" badge above
 2. Sign in with your Google account
 3. Click Runtime → Run all to execute all cells
@@ -87,21 +82,18 @@ Samples per Class: 50
    - Train the Logistic Regression model
    - Evaluate model performance
    - Make predictions
-```
+
 ## 📈 Model Performance
 
 The Logistic Regression model demonstrates perfect performance on the Iris dataset:
 
-```
 Accuracy: 100%
 Precision: 1.00 across all three classes
 Recall: 1.00 across all three classes
 F1-Score: 1.00 (perfect balance)
-```
 
 ### Classification Report
 
-```
                  precision    recall  f1-score   support
 
     Iris-setosa       1.00      1.00      1.00         7
@@ -111,7 +103,6 @@ Iris-versicolor       1.00      1.00      1.00        12
        accuracy                           1.00        30
       macro avg       1.00      1.00      1.00        30
    weighted avg       1.00      1.00      1.00        30
-```
 
 
 ## 🎯 Results
@@ -119,24 +110,21 @@ Iris-versicolor       1.00      1.00      1.00        12
 ### Key Findings
 
 **1. Feature Importance:**
-```
+
 - Petal length and petal width are the most discriminative features
 - Sepal measurements provide additional classification support
-```
 
 **2. Class Separability:**
-```
+
 - Iris Setosa is linearly separable from other species
 - Versicolor and Virginica are well-distinguished by the model
-```
 
 **3. Model Performance:**
-```
+
 - Perfect 100% accuracy on test data
 - No misclassifications
 - Model generalizes excellently to unseen data
 - Suitable for real-world classification tasks
-```
 
 ### Visualizations
 <img width="1137" height="986" alt="image" src="https://github.com/user-attachments/assets/8462ddfd-1a92-49a0-a795-51911f729ae8" />
@@ -145,9 +133,8 @@ Iris-versicolor       1.00      1.00      1.00        12
 
 ## 🙏 Acknowledgments
 
-```
 - UCI Machine Learning Repository for the Iris dataset
 - Ronald A. Fisher for creating the original dataset
 - scikit-learn community for excellent documentation
 - Google Colab for providing free cloud computing resources
-```
+
